@@ -2,7 +2,9 @@
 %define		orgname		kjumpingcube
 %define		qtver		4.8.0
 
-Summary:	Kjumpingcube
+Summary:	A little tactical game for KDE
+Summary(pl.UTF-8):	Prosta gra taktyczna dla KDE
+Summary(pt_BR.UTF-8):	Jogo de estratégia para 2 contendores
 Name:		kde4-%{orgname}
 Version:	4.12.0
 Release:	1
@@ -21,7 +23,24 @@ Obsoletes:	kde4-kdegames-%{orgname}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Kjumpingcube.
+KJumpingCube is a simple tactical game. You can play it against the
+computer or against the friend. The playing field consists of squares
+that contains points. By clicking on the squares you can increase the
+points, and if the points reach a maximum the points will jump to the
+squares neighbours and take them over. Winer is the one, who owns all
+squares.
+
+%description -l pl.UTF-8
+KJumpingCube to prosta gra taktyczna. Można w nią grać przeciwko
+komputerowi lub przeciwko koledze. Plansza do gry zawiera pola, które
+zawierają punkty. Przez klikanie na pola zwiększa się liczbę punktów
+na nich. Gdy liczba punktów na określonym polu osiągnie maksymalną
+wartość, punkty przeskakują na sąsiednie pola przejmując je tym samym
+na własność. Zwycięzca jest jeden - to ten, kto przejmie wszystkie
+pola na własność.
+
+%description -l pt_BR.UTF-8
+Jogo de estratégia para 2 contendores.
 
 %prep
 %setup -q -n %{orgname}-%{version}
