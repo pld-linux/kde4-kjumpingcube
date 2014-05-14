@@ -6,12 +6,12 @@ Summary:	A little tactical game for KDE
 Summary(pl.UTF-8):	Prosta gra taktyczna dla KDE
 Summary(pt_BR.UTF-8):	Jogo de estratégia para 2 contendores
 Name:		kde4-%{orgname}
-Version:	4.13.0
+Version:	4.13.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	b393647790d4f3b311a0fa1fe9d231fe
+# Source0-md5:	eebd96f8fbe18ee30475268a53c9175a
 BuildRequires:	automoc4 >= 0.9.88
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdelibs-devel >= %{version}
